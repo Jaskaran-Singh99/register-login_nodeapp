@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+    <div class="heading">Sign Up</div>
+    <form action="/register" method="POST" class="form-container">
+        <div class="form-group">
+            <input type="text" placeholder="First Name" name="firstname">
+        </div>
+
+        <div class="form-group">
+            <input type="text" placeholder="Last Name" name="lastname">
+        </div>
+
+        <div class="form-group">
+            <input type="email" placeholder="Email" name="email">
+        </div>
+
+        <div class="form-group">
+            <input type="password" placeholder="Password" name="password">
+        </div>
+
+         <div class="form-group">
+            <input type="password" placeholder="Confirm Password" name="confirmpassword">
+        </div>
+
+
+        <div class="form-group">
+            <input type="text" placeholder="Enter your phone number" name="phone" minlength="10", maxlength="10">
+        </div>
+
+        <div class="form-group">
+            <input type="text" placeholder="Enter your Age" name="age">
+        </div>
+
+        <div class="form-group">
+            <label class="radio">
+                <input type="radio" name="gender">
+                <span>Male</span>
+            </label>
+             <label class="radio">
+                <input type="radio" name="gender">
+                <span>Female</span>
+            </label>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
