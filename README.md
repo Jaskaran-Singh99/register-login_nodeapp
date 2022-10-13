@@ -1,13 +1,13 @@
 
-# Node js CRUD application/Task Manager
+# Node js login/register application
 
-This is a basic nodejs crud application where the user
-can create, update or delete data 
+You can register yourself in this app with email, name , gender etc and login with that again (a typical user authentication app)
+I learned new things like handlebars, bcrypt.js to hash the passwords in this project 
 
 
 ## Tech Stack
 
- Nodejs , Express, MongoDB, HTML, CSS
+ Nodejs , Express, MongoDB, Handlebars
 
 
 ## Run Locally
@@ -23,10 +23,10 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run start
+  nodemon index.js
 ```
 
-Go to http://localhost:4000/ on your device.
-(Use Postman or thunderclient to post or delete the data)
+Go to http://localhost:3000/register to register  and http://localhost:3000/login to login on your device
+
 
 
